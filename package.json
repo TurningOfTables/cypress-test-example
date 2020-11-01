@@ -1,0 +1,14 @@
+{
+  "name": "cypress-sample-project",
+  "version": "1.0.0",
+  "description": "A sample project for Cypress tests",
+  "scripts": {
+    "test": "cypress run",
+    "test-ui": "cypress open"
+  },
+  "author": "TurningOfTables",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^5.5.0"
+  }
+}
