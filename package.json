@@ -6,8 +6,16 @@
     "test": "cypress run",
     "test-ui": "cypress open"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurningOfTables/cypress-test-example.git"
+  },
   "author": "TurningOfTables",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TurningOfTables/cypress-test-example/issues"
+  },
+  "homepage": "https://github.com/TurningOfTables/cypress-test-example#readme",
   "dependencies": {
     "cypress": "^5.5.0"
   }
