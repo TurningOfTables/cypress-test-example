@@ -14,19 +14,19 @@ describe("Lorem Ipsum Plc - Login", () => {
     cy.visit("./sample_site/index.html");
   });
 
-  it("should open the login popup correctly", () => {
+  it("should open the login form correctly", () => {
     cy.get(elements.LOGIN_LINK).click();
     cy.get(elements.LOGIN_POPUP).should("be.visible");
   });
 
-  it("should close the login form", () => {
+  it("should close the login form correctly", () => {
     cy.get(elements.LOGIN_LINK).click();
     cy.get(elements.LOGIN_POPUP).should("be.visible");
     cy.get(elements.LOGIN_CLOSE).click();
     cy.get(elements.LOGIN_POPUP).should("not.be.visible");
   });
 
-  it("should log in with valid right details", () => {
+  it("should log in with valid details", () => {
     cy.get(elements.LOGIN_LINK).click();
     cy.get(elements.USERNAME_INPUT).type("User42");
     cy.get(elements.PASSWORD_INPUT).type("guest");
